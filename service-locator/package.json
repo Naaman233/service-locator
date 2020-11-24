@@ -1,0 +1,28 @@
+{
+  "name": "service-locator",
+  "version": "1.0.0",
+  "description": "A search engine to determine availability of products based on the customer's zipcode ",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Makafui Kofi Naaman",
+  "license": "ISC",
+  "repository": {
+    "type": "git"
+  },
+  "dependencies": {
+    "@types/node": "^14.14.9",
+    "body-parser": "^1.19.0",
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "nodeman": "^1.1.2",
+    "query-string": "^6.13.7",
+    "ts-node": "^9.0.0",
+    "typescript": "^4.1.2",
+    "zipcodes": "^8.0.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.6"
+  }
+}
